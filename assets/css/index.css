@@ -62,7 +62,7 @@ main {
 }
 
 .header__button {
-  animation: wiggle 2.2s linear infinite;
+  animation: wiggle 3.5s linear infinite;
 }
 
 /* Divider */
@@ -126,11 +126,13 @@ main {
 .subscription__plans:has(.subscription__card:nth-child(1):hover)
   .subscription__card:nth-child(2) {
   transform: rotateY(-45deg);
+  filter: brightness(0.4);
 }
 
 .subscription__plans:has(.subscription__card:nth-child(2):hover)
   .subscription__card:nth-child(1) {
   transform: rotateY(45deg);
+  filter: brightness(0.4);
 }
 
 .subscription__description {
@@ -325,19 +327,19 @@ main {
     transform: rotate(0);
   }
   15% {
-    transform: rotate(-15deg);
+    transform: rotate(-5deg);
   }
   20% {
-    transform: rotate(10deg);
+    transform: rotate(2deg);
   }
   25% {
-    transform: rotate(-10deg);
+    transform: rotate(-2deg);
   }
   30% {
-    transform: rotate(10deg);
+    transform: rotate(2deg);
   }
   35% {
-    transform: rotate(-10deg);
+    transform: rotate(-2deg);
   }
   40%,
   100% {
